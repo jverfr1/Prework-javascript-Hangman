@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="hangman.css">
+	<script type="text/javascript" src="hangman.js"></script>
+	<!--<script type="text/javascript" src="dataManagement.js"></script>-->
+</head>
+<body>
+    <header>
+    	<h1>This is Hangman</h1>
+    </header>
+    <div class="container">
+    	<div class="form">
+    	   <div id="player-form">
+    	      <div id="name">
+    	         <h4>Player form</h4>
+    	         <div class="name-form">
+    	            <div id="name-text">
+    	               <p>Introduce your name</p>
+    	            </div>
+    	            <div id="inputt-name">
+    	               <input type="text" id="name-input"></input>
+    	            </div>
+    	         </div>
+    	      </div>
+    	      <div id="phrase">
+    	          <div id="phrase-text">
+    	              <p>Introduce the phrase to guess</p>
+    	          </div>
+    	          <div id="input-phrase">
+    	              <input type="password" id="phrase-form"></input>
+    	          </div>
+    	      </div>
+    	   </div>
+    	   <div id="save-form">
+    	      <input type="submit" id="save-button" value="Save"></input>
+    	   </div>
+    	   <div id="results">
+    	       <h3>Results</h3>
+    	   </div>
+    	</div>
+    	<div class="hangman-guessing">
+    		<div id="guess">
+    		    <div class="input">
+    			    <input type="text" id="guess-input"></input>
+    			    <input type="submit" id="guess-submit" value="Submit"></input>
+                </div>
+                <div class="draw-phrase"></div>
+    		</div>
+    		<canvas id="canvas-guess"></canvas>
+    	</div>
+    	
+    </div>
+</body>
+</html>
